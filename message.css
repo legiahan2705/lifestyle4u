@@ -76,7 +76,6 @@ header{
     background-color: rgba(53, 103, 169, 0.751);
 }
 
-
 .icon{
     position: relative;
     display:flex;
@@ -84,7 +83,6 @@ header{
     font-size: 25px;
     padding:10px;
 }
-
 
 .navbar{
     width: 230px;
@@ -180,58 +178,6 @@ header{
     position: relative;
 }
 
-.friend{
-    margin-right:0px;
-    margin-left:0px;
-    margin-top:0px;
-    padding: 20px 20px 1px;
-    transition: 0.1s;
-    color:white;
-    font-family:Quicksand;
-    display:flex;
-    height:70px;
-    width:395px;
-    position: relative;
-    cursor: pointer;
-
-}
-.friend2{
-    margin-right:0px;
-    margin-left:0px;
-    margin-top:0px;
-    padding: 20px 20px 1px;
-    transition: 0.1s;
-    color:white;
-    font-family:Quicksand;
-    display:flex;
-    height:70px;
-    width:395px;
-    position: relative;
-    cursor: pointer;
-
-}
-.friend2:hover{
-    background-color:rgba(141, 181, 234, 0.662);
-}
-
-.friend_mess1{
-    margin-right:0px;
-    margin-left:0px;
-    margin-top:0px;
-    padding: 20px 20px 1px;
-    transition: 0.1s;
-    color:white;
-    font-family:Quicksand;
-    display:flex;
-    height:70px;
-    width:395px;
-    position: relative;
-    cursor: pointer;
-
-}
-.friend_mess1:hover{
-    background-color:rgba(141, 181, 234, 0.662);
-}
 
 
 .fr{
@@ -242,9 +188,6 @@ header{
     font-weight: bold;
 }
 
-.friend:hover{
-    background-color:rgba(141, 181, 234, 0.662);
-}
 
 .text{
     position:relative;
@@ -276,28 +219,7 @@ header{
     -o-border-radius:10px;
 }
 
-.mess1{
-    position: absolute;
-    left:539px;
-    background-color: rgba(172, 201, 240, 0.979);
-    width:989px;
-    height:708px;
-}
-.mess1.active{
-    left:539px;
-}
 
-.mess2a{
-    position: absolute;
-    left:-200%;
-    background-color: rgba(172, 201, 240, 0.979);
-    width:989px;
-    height:708px;
-}
-
-.mess2a.active{
-    left:539px;
-}
 
 
 .friend1{
@@ -340,9 +262,6 @@ header{
 .icon2:active{
     transform: scale(0.7);
 }
-
-
-
 
 .first_side{
     position: fixed;
@@ -467,6 +386,87 @@ font-family:Quicksand;
 }
 
 
+.mess1{
+    position: absolute;
+    left:-300%;
+    background-color: rgba(172, 201, 240, 0.979);
+    width:989px;
+    height:600px;
+}
+.mess1.active{
+    left:539px;
+}
+
+.mess2a{
+    position: absolute;
+    left:-200%;
+    background-color: rgba(172, 201, 240, 0.979);
+    width:989px;
+    height:600px;
+}
+
+.mess2a.active{
+    left:539px;
+}
+
+.friend{
+    margin-right:0px;
+    margin-left:0px;
+    margin-top:0px;
+    padding: 20px 20px 1px;
+    transition: 0.1s;
+    color:white;
+    font-family:Quicksand;
+    display:flex;
+    height:70px;
+    width:395px;
+    position: relative;
+    cursor: pointer;
+}
+
+.friend:hover{
+    background-color:rgba(141, 181, 234, 0.662);
+}
+.friend2{
+    margin-right:0px;
+    margin-left:0px;
+    margin-top:0px;
+    padding: 20px 20px 1px;
+    transition: 0.1s;
+    color:white;
+    font-family:Quicksand;
+    display:flex;
+    height:70px;
+    width:395px;
+    position: relative;
+    cursor: pointer;
+
+}
+.friend2:hover{
+    background-color:rgba(141, 181, 234, 0.662);
+}
+
+.friend_mess1{
+    margin-right:0px;
+    margin-left:0px;
+    margin-top:0px;
+    padding: 20px 20px 1px;
+    transition: 0.1s;
+    color:white;
+    font-family:Quicksand;
+    display:flex;
+    height:70px;
+    width:395px;
+    position: relative;
+    cursor: pointer;
+
+}
+.friend_mess1:hover{
+    background-color:rgba(141, 181, 234, 0.662);
+}
+
+
+
 
 
 
@@ -525,7 +525,6 @@ font-family:Quicksand;
   and (orientation: landscape) { 
  
 }
-
 
 
 
