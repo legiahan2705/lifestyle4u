@@ -1,0 +1,82 @@
+.all_create{
+    position:absolute;
+    left:335px;
+    width:900px;
+    height:600px;
+    border:0px solid;
+    border-radius: 15px;
+    top:60px;
+    box-shadow: 0px 0px 20px  rgba(228, 228, 228, 0.915);
+    backdrop-filter:blur(20px);
+    background:transparent;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+}
+
+.add_picture{
+    width:450px;
+    height:100%;
+}
+
+.create_title{
+    position: absolute;
+    width:450px;
+    background-color: aqua;
+    padding:10px;
+    text-align: center;
+    font-size:20px;
+    font-family:Quicksand;
+    font-weight: bold;
+}
+
+.create_second_side{
+    position: absolute;
+    top:45px;
+    width:100%;
+    background-color:bisque;
+    backdrop-filter:blur(20px);
+    background:transparent;
+    height:100%;
+}
+
+.create_user{
+    position: absolute;
+    top:55px;
+    left:460px;
+    z-index: 1;
+}
+.create_avt{
+    position: absolute;
+    top:0px;
+    width:40px;
+    border-radius: 50px;
+}
+.create_username{
+    position: absolute;
+    width:300px;
+    left:45px;
+    top:10px;
+}
+
+.textarea-container {
+    max-width: 450px;
+    width: 100%;
+    position: absolute;
+    top:60px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border:0;
+    height:250px;
+}
+
+/* Optional: Style the placeholder text */
+textarea::placeholder {
+    color: #999;
+    font-family:Quicksand;
+}

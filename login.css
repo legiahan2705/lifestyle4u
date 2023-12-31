@@ -184,48 +184,27 @@ body{
 }
 
 
-/* ----------- Non-Retina Screens ----------- */
-@media screen
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
- 
-/* ----------- Retina Screens ----------- */
-@media screen
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) { 
+/* Media query for smaller screens (e.g., tablets) */
+
+@media only screen and (max-width: 768px) {
+    .navbar a {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    /* Add other styles specific to smaller screens */
 }
 
-/* ----------- iPhone 6+ ----------- */
- 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
- 
+/* Media query for even smaller screens (e.g., mobile phones) */
+
+@media only screen and (max-width: 480px) {
+    .navbar a {
+        font-size: 12px; /* Further adjust font size for very small screens */
+    }
+
+    /* Add other styles specific to very small screens */
 }
- 
-/* Portrait */
-@media only screen
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
- 
-}
- 
-/* Landscape */
-@media only screen
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
- 
-}
+
+/* Add more media queries as needed for different screen sizes */
 
 
 
